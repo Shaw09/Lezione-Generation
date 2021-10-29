@@ -11,6 +11,7 @@ img {
     height: 200px;
 }
 main {
+    background-color: paleturquoise;
     margin-left: 2%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -25,4 +26,5 @@ footer {
     text-align: center;
     font-size: 50%;
     border-top: 2px solid orange;
+    background-color: lightgoldenrodyellow;
 }
