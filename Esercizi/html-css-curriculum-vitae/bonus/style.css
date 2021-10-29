@@ -24,6 +24,9 @@ h2 {
 strong {
     font-family: cursive;
 }
+div {
+    background-color: lightskyblue;
+}
 footer {
     text-align: center;
     font-size: 50%;
