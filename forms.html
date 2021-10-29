@@ -5,6 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Forms</title>
+    <style type="=text/css">
+        #rosso{
+            background-color: crimson;
+            /* width: 500px; */
+            height: 400px;
+            width: 50%;
+      }
+    </style>
 </head>
 <body>
     <h1>Proviamo le form</h1>
@@ -35,7 +43,7 @@
         <input type="text" placeholder="inserisci il nome" required>
         <input type="number">
         <input type="color">
-        <input type="date">
+        <input id="data-di-nascita" type="date">
         <select name="scelta">
             <option value="1">Uno</option>
             <option value="2">Due</option>
@@ -44,6 +52,7 @@
         <textarea name="textarea" rows="10" cols="10"></textarea>
         <button type="submit">Invia dati</button>
     </form>
+    <div id="rosso"></div>
     <p>
         <label>
             <input name="tell" type="tel" pattern="[0-9] {3}" placeholder="">
