@@ -1,3 +1,14 @@
+body {
+    
+}
 header {
-    background-color: grey;
+    background-color: lightgrey;
+    text-align: center;
+}
+main {
+    
+}
+footer {
+    text-align: center;
+    size: 50%;
 }
