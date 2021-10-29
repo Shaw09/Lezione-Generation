@@ -12,9 +12,14 @@ img {
 }
 main {
     margin-left: 2%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 h2 {
     color: orange;
+    font-family: fantasy;
+}
+strong {
+    font-family: cursive;
 }
 footer {
     text-align: center;
