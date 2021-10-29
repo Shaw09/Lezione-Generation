@@ -4,6 +4,7 @@ body {
 }
 header {
     background-color: lightgrey;
+    background-image: url(https://uploads.theartofeducation.edu/2020/02/flex-teacher_nobkgd-1.png);
     text-align: center;
     border-bottom: 2px solid orange;
 }
