@@ -4,8 +4,17 @@ body {
 h1 {
     color: orange;
     text-align: center;
-    font-family: SpookyHunter;
-    src: url("SpookyHunterDEMO.otf") format("opentype");
+    font-family: ;
+    src: url("fonts/Spooky\ Party\ -\ Personal\ Use.ttf") format("opentype");
+}
+form {
+    text-align: center;
+}
+footer {
+    text-align: center;
+    background-color: orange;
+    font-family: ;
+    src: url("fonts/Spooky\ Party\ -\ Personal\ Use.ttf") format("opentype");
 }
 .form-container {
     background-color: lightgray;
