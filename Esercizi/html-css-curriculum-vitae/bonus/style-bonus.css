@@ -1,3 +1,20 @@
 body {
     background-image: url("img/0c44bba34a1ada03ab3028b0d40f670e.jpg");
 }
+h1 {
+    background-color: lightgray;
+}
+.form-container {
+    background-color: lightgray;
+}
+.number::-webkit-inner-spin-button,
+.number::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+/* Firefox */
+.number {
+    -moz-appearance: textfield;
+}
