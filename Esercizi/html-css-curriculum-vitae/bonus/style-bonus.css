@@ -2,7 +2,10 @@ body {
     background-image: url("img/0c44bba34a1ada03ab3028b0d40f670e.jpg");
 }
 h1 {
-    background-color: lightgray;
+    color: orange;
+    text-align: center;
+    font-family: SpookyHunter;
+    src: url("SpookyHunterDEMO.otf") format("opentype");
 }
 .form-container {
     background-color: lightgray;
