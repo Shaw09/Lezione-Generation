@@ -14,35 +14,35 @@
     <main>
         <div class="form-container">
             <form>
-                <div>
-                    <label for="name">Nome</label>
+                <div class="row-container">
+                    <label class="row-form label-container" for="name">Nome</label>
                     <br>
-                    <input id="name" type="text" placeholder="nome" required>
+                    <input class="row-form" id="name" type="text" placeholder="nome" required>
                 </div>
-                <div>
-                    <label for="email">E-mail</label>
+                <div class="row-container">
+                    <label class="row-form label-container" for="email">E-mail</label>
                     <br>
-                    <input id="email" type="text" placeholder="email" required>
+                    <input class="row-form" id="email" type="text" placeholder="email" required>
                 </div>
-                <div>
-                    <label for="tel">Telefono</label>
+                <div class="row-container">
+                    <label class="row-form label-container" for="tel">Telefono</label>
                     <br>
-                    <input id="tel" class="number" type="number" placeholder="numero di telefono" required>
+                    <input id="tel" class="number row-form" type="number" placeholder="numero di telefono" required>
                 </div>
-                <div>
-                    <label for="arrive-hour">Ora di Arrivo</label>
+                <div class="row-container">
+                    <label class="row-form label-container" for="arrive-hour">Ora di Arrivo</label>
                     <br>
-                    <input id="arrive-hour" class="number" type="time">
+                    <input class="row-form" id="arrive-hour" class="number" type="time">
                 </div>
-                <div>
-                    <label for="friendly-invitation">Amici Portati</label>
+                <div class="row-container">
+                    <label class="row-form label-container" for="friendly-invitation">Amici Portati</label>
                     <br>
-                    <input id="friendly-invitation" type="number">
+                    <input class="row-form" id="friendly-invitation" type="number">
                 </div>
-                <div>
-                    <label for="event">Come hai saputo dell`evento?</label>
+                <div class="row-container">
+                    <label class="row-form label-container" for="event">Come hai saputo dell`evento?</label>
                     <br>
-                    <select name="event" id="event">
+                    <select class="row-form" name="event" id="event">
                         <option value="">Scegli un opzione</option>
                         <option value="social">Social</option>
                         <option value="ads">Pubblicità</option>
@@ -51,16 +51,20 @@
                         <option value="family">Parente</option>
                     </select>
                 </div>
-                <div>
-                    <label for="costume">Costume Portato</label>
+                <div class="row-container">
+                    <label class="row-form label-container" for="costume">Costume Portato</label>
                     <br>
                     <textarea rows="20" cols="35">Scrivi qui come ti travestirai.</textarea>
                 </div>
-                <div>
+                <br>
+                <div class="row-container">
                     <label for="accetta-le-condizioni">Accetta le Condizioni</label>
                     <input id="accetta-le-condizioni" type="checkbox">
                 </div>
-                <button id="sign" type="submit">Registrati</button>
+                <br>
+                <div class="row-button">
+                    <button id="sign" type="submit">Registrati</button>
+                </div>
             </form>
         </div>
     </main>
