@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        #esterno{
+            background-color: red;
+            width: 200px;
+            height: 300px;
+            border: 2px solid black;
+            border-radius: 5px;
+            padding: 10px;
+            margin-bottom: 15px;
+        }
+        #interno{
+            background-color: aqua;
+            width: 50%;
+        }
+        span{
+            background-color: green;
+            width: 200px;
+            height: 300px;
+            padding: 10px;
+        }
+        .testo-arancione{
+            color: orange;
+        }
+        span.testo-arancione{
+            font-weight: 800;
+        }
+    </style>
+</head>
+<body>
+    <div id="esterno">
+        <div id="interno" class="testo-arancione">sono un div</div>
+    </div>
+    <span class="testo-arancione">sono uno span</span>
+    <p>
+        <ul>
+            <li>uno</li>
+            <li>due</li>
+        </ul>
+    </p>
+</body>
+</html>
