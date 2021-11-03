@@ -1,0 +1,65 @@
+body{
+    margin: 30px;
+}
+.part-1 .tablet p{
+    background-color: green;
+    font-weight: bold;
+    position: absolute;
+    top: 15px;
+    left: 292px;
+}
+.part-1 .phone{
+    position: absolute;
+    top: 30px;
+    left: 335px;
+}
+.part-1 .phone p{
+    background-color: red;
+    font-weight: bold;
+    position: absolute;
+    bottom: 341px;
+    left: 270px;
+}
+.part-1 .headphone{
+    position: absolute;
+    top: 30px;
+    left: 640px;
+}
+.part-1 .headphone p{
+    background-color: green;
+    font-weight: bold;
+    position: absolute;
+    bottom: 341px;
+    left: 262px;
+}
+.part-2 .tablet p{
+    background-color: green;
+    font-weight: bold;
+    position: absolute;
+    top: 300px;
+    left: 292px;
+}
+.part-2 .phone{
+    position: absolute;
+    top: 30px;
+    left: 335px;
+}
+.part-2 .phone p{
+    background-color: red;
+    font-weight: bold;
+    position: absolute;
+    bottom: 341px;
+    left: 270px;
+}
+.part-2 .headphone{
+    position: absolute;
+    top: 30px;
+    left: 640px;
+}
+.part-2 .headphone p{
+    background-color: green;
+    font-weight: bold;
+    position: absolute;
+    bottom: 341px;
+    left: 262px;
+}
