@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .red{
+          background-color: red; 
+          width: 300px;
+          height: 200px; 
+          position: relative;
+        }
+        .red .blue{
+            background-color: blue;
+            width: 50px;
+            height: 50px;
+        }
+        .red .green{
+            background-color: green;
+            width: 50px;
+            height: 50px;
+            position: absolute;
+            bottom: 0;
+            left: 100%;
+        }
+        .purple{
+            background-color: purple;
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+        .red-1{
+            background-color: red;
+            width: 300px;
+            height: 300px;
+            margin-top: 20px;
+            position: relative;
+        }
+        .red-1 .blue{
+            background-color: blue;
+            width: 100px;
+            height: 100px;
+        }
+        .red-1 .green{
+            background-color: green;
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            bottom: 40px;
+            right: 40px;
+            z-index: 1;
+        }
+        .red-1 .blue:nth-child(2){
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+        .red-1 .blue:nth-child(4){
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            z-index: 0;
+        }
+        .green-1{
+            background-color: green;
+            width: 750px;
+            height: 500px;
+            margin-top: 20px;
+            position: relative;
+        }
+        .green-1 .blue{
+            background-color: blue;
+            width: 300px;
+            height: 300px;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        .green-1 .blue-1{
+            background-color: blue;
+            position: absolute;
+            width: 300px;
+            height: 300px;
+            top: 0;
+            left: 305px;
+        }
+        .green-1 .blue .red{
+            background-color: red;
+            width: 50px;
+            height: 50px;
+            top: 0;
+            left: 0;
+            position: absolute;
+        }
+        .green-1 .blue .red-1{
+            background-color: red;
+            width: 50px;
+            height: 50px;
+            position: absolute;
+            bottom: 0;
+            right: 0;
+        }
+        .green-1 .blue-1 .red{
+            background-color: red;
+            width: 50px;
+            height: 50px;
+            top: 0;
+            left: 0;
+            position: absolute;
+        }
+        .green-1 .blue-1 .red-1{
+            background-color: red;
+            width: 50px;
+            height: 50px;
+            top: 29px;
+            left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="red">
+        <div class="blue"></div>
+        <div class="green"></div>
+    </div>
+    <div class="purple"></div>
+    <div class="red-1">
+        <div class="blue"></div>
+        <div class="blue"></div>
+        <div class="green"></div>
+        <div class="blue"></div>
+    </div>
+    <div class="green-1">
+        <div class="blue">
+            <div class="red"></div>
+            <div class="red-1"></div>
+        </div>
+        <div class="blue-1">
+            <div class="red"></div>
+            <div class="red-1"></div>
+        </div>   
+    </div>
+</body>
+</html>

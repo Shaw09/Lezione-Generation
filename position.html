@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .square{
+            width: 200px;
+            height: 200px;
+        }
+        .red{
+            background-color: red;
+        }
+        .green{
+            background-color: green;
+            position: relative;
+            top: 0;
+            left: 25px;
+        }
+        .blue{
+            background-color: blue;
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+        .white{
+            position: relative;
+        }
+        .pink{
+            background-color: pink;
+            z-index: 0;
+            position: relative;
+        }
+        .yellow{
+            background-color: yellow;
+            position: absolute;
+            top: 40px;
+            left: 40px;
+            z-index: 1;
+        }
+        .orange{
+            background-color: orange;
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            z-index: 2;
+        }
+    </style>
+</head>
+<body>
+    <div class="square red"></div>
+    <div class="square green"></div>
+    <div class="square blue"></div>
+    <div class="square white">
+        <div class="square pink"></div>
+        <div class="square yellow"></div>
+        <div class="square orange"></div>
+    </div>
+</body>
+</html>
