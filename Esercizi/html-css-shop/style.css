@@ -80,3 +80,11 @@ body{
     right: 150px;
     z-index: 1;
 }
+.part-1 .tablet .heart{
+    top: 359px;
+    left: 180px;
+}
+.part-2 .tablet .heart{
+    top: 780px;
+    left: 180px;
+}
