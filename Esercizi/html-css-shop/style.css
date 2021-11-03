@@ -66,3 +66,17 @@ body{
     bottom: 341px;
     left: 262px;
 }
+.heart{
+    position: absolute;
+    color: transparent;
+    bottom: 25px;
+    right: 150px;
+    z-index: 0;
+}
+.heart-2:hover{
+    position: absolute;
+    color: red;
+    bottom: 25px;
+    right: 150px;
+    z-index: 1;
+}
