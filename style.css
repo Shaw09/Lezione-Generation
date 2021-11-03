@@ -1,0 +1,42 @@
+body{
+    background-image: url('https://www.myrtlebeachairportshuttle.com/wp-content/uploads/2015/12/airport-terminal-wallpaper.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+#board{
+    background-color: rgb(177, 177, 177);
+    margin: 5%;
+    border: 1px solid grey;
+    border-radius: 3px;
+    padding: 1.2em;
+}
+.row:first-child{
+    border-bottom: 1px solid gray;
+}
+.row{
+    padding: 0.4em;
+}
+.header{
+    color: white;
+    font-size: 10px;
+}
+.yellow{
+    color: rgb(228, 228, 18);
+    font-size: 12px;
+}
+.squares > span {
+   color: rgb(228, 228, 18);
+   font-size: 20px;
+   background-color: rgb(71, 71, 71);
+   border: 1px inset white; 
+   width: 25px;
+   height: 25px;
+   display: inline-block;
+   text-align: center;
+   line-height: 25px;
+}
+.row:hover .squares > span{
+    color: white;
+    cursor: pointer;
+}
