@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    width: 100vw;
+    background-color: gray;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.box h2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: blue;
+    color: white;
+}
+.layover{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+#roma{
+    background-color: aquamarine;
+    background-image: url('https://img2.meteo.it/bin/90.$plit/C_109_meteoCitta_4_upiFoto.jpg');
+}
+#milano{
+    background-image: url('http://www.youparti.com/nightlife_2016/nightlife/wp-content/uploads/2018/10/Milano.jpg');
+
+}
